@@ -1,7 +1,9 @@
+import "./Landing.css";
+
 export default function Landing() {
   return (
     <>
-      <div>
+      <div className="landing-style">
         <h2>Hello World</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
@@ -12,7 +14,7 @@ export default function Landing() {
           suscipit a nostrum et dicta aliquam distinctio beatae necessitatibus
           sit.
         </p>
-        <h3>This is the Landing page</h3>
+        <h3>This is the Home page</h3>
       </div>
     </>
   );

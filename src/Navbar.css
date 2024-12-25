@@ -1,8 +1,9 @@
 .navbar-comp {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
+  justify-content: flex-start;
+  gap: 12px;
   padding: 20px;
-  background-color: blueviolet;
+  background-color: rgb(9, 9, 79);
+  box-shadow: 1px 5px 3px rgb(13, 16, 57);
 }
