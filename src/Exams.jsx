@@ -4,7 +4,7 @@ export default function Exams() {
   return (
     <>
       <div className="exam-card">
-        <h1>Hello World</h1>
+        <h2>Hello World</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam earum
           aut doloremque aspernatur aliquam, totam adipisci consequatur iste

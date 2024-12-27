@@ -1,13 +1,42 @@
+.entire-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #030061;
+  color: #fff;
+}
+
 .navbar-comp {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
-  padding: 12px;
-  background-color: rgb(9, 9, 79);
-  box-shadow: 2px 2px 5px rgb(3, 9, 95);
+}
+
+.navbar-comp a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.logo h1 {
+  margin: 0;
 }
 
 .logo {
+  padding-bottom: 18px;
   padding-right: 15px;
+}
+
+button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #756f6f;
+  color: #fff;
 }
