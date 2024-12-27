@@ -9,15 +9,14 @@ export default function Navbar() {
     <>
       <BrowserRouter>
         <div className="navbar-comp">
-          <Link to="/">
-            <button>Home</button>
-          </Link>
-          <Link to="/programs">
-            <button>Programs</button>
-          </Link>
-          <Link to="/exams">
-            <button>Exams</button>
-          </Link>
+          <div className="logo">
+            <Link to="/">
+              <h2>ALLEN</h2>
+            </Link>
+          </div>
+          <Link to="/">Home</Link>
+          <Link to="/programs">Programs</Link>
+          <Link to="/exams">Exams</Link>
         </div>
         <Routes>
           <Route path="/" element={<Landing />} />

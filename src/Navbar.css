@@ -2,8 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 12px;
-  padding: 20px;
+  gap: 10px;
+  padding: 12px;
   background-color: rgb(9, 9, 79);
-  box-shadow: 1px 5px 3px rgb(13, 16, 57);
+  box-shadow: 2px 2px 5px rgb(3, 9, 95);
+}
+
+.logo {
+  padding-right: 15px;
 }
