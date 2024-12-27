@@ -1,7 +1,9 @@
+import "./Exams.css";
+
 export default function Exams() {
   return (
     <>
-      <div>
+      <div className="exam-card">
         <h1>Hello World</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam earum
